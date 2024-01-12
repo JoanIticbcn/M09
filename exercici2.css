@@ -1,0 +1,23 @@
+a{
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 200px;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+}
+a.element1{
+    float: left !important;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+    height: 100px;
+    width: 400px;
+    transition: 1s smooth;
+}
